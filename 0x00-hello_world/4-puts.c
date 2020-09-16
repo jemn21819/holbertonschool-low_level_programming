@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- *Write a C program that prints exactly 
- *"Programming is like building a multiligual puzzle, 
- *followed by a new line.
+ * main -  Print a string
+ * Description: Print ""Programming is like building a multilingual puzzle"
+ * Return: 0
  */
 int main(void)
 {

@@ -2,8 +2,8 @@
 
 /**
  * main - Print the size of data
- * Description: Print size of the data requested
- * Return: 0
+ * 
+ * Return: Always 0
  */
 int main(void)
 {

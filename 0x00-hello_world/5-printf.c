@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- *Write a C program that prints exactly with proper
- *grammar, but the outcome is a piece of art,, 
- *followed by a new line.
+ * main -  Print a string
+ * Description: "Prints with proper grammar, but the outcome is a piece of art"
+ * Return: 0
  */
 int main(void)
 {

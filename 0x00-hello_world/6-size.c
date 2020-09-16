@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <libc6-dev-i386.h>
 
 /**
  * main -  Print sixe of data types

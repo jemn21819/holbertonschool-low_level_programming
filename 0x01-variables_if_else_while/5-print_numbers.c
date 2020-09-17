@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Pritn alphabet in lowcase
+ * main - print single digit with base 10
  *
  * Return:  Always 0 (success)
  */
@@ -10,7 +10,7 @@ int main(void)
 {
 	int x;
 
-	for (x = o; x <= 9; x++)
+	for (x = 0; x <= 9; x++)
 	{
 		printf("%d", x);
 	}

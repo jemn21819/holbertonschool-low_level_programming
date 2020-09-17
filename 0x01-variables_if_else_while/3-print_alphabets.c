@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Pritn alphabet in lowcase
+ * main - Pritn alphabet in low and upper
  *
  * Return:  Always 0 (success)
  */
@@ -19,7 +19,7 @@ int main(void)
 		putchar(x);
 	}
 
-	putchart('\n');
+	putchar('\n');
 
 	return (0);
 }

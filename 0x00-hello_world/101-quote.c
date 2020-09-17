@@ -3,7 +3,7 @@
 /**
  *main - Print etxactly
  *
- *Return: always 0 (succes)
+ *Return: always 1 (succes)
  */
 in main(void)
 {

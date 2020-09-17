@@ -4,7 +4,7 @@
 /**
  * main - Print exactly
  *
- * Return: Alwas 1 (Success)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {

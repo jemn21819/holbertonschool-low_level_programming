@@ -10,14 +10,14 @@ int main(void)
 {
 	int x;
 
-	for (x = '0'; x <= '8'; x++)
+	for (x = '0'; x <= '10'; x++)
 	{
-		putchar('%d, ', x);
-	}
-	for (x == '9')
-	{
-		putchar('%d$', x);
-	}
-	putchar('\n');
-	return (0);
+		putchar(x);
+		if (x != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		putchar('\n');
+		return (0);
 }

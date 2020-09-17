@@ -14,9 +14,12 @@ int main(void)
 	{
 		putchar(x);
 	}
+	for (x = 'A'; x <= 'Z'; x++)
 	{
-		putchar(tolower(x));
-			}
-			putchart('\n');
-		return (0);
+		putchar(x);
+	}
+
+	putchart('\n');
+
+	return (0);
 }

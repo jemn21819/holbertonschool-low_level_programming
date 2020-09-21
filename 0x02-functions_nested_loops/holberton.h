@@ -36,3 +36,5 @@ int add(int, int);
 
 /* 11-print_to_98.c */
 void print_to_98(int);
+
+#endif

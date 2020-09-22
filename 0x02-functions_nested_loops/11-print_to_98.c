@@ -7,20 +7,15 @@ B#include "holberton.h"
 
 void print_to_98(int n)
 {
-	int x;
-
-	if (n <= 98)
+	if (n > 98)
 	{
-		for (x = n; x < 98; i++)
-		{
-			printf("%i, ", x);
-		}
-	} else
+		for (; n > 98; n--)
+			printf("%d, ", n);
+	}
+	if (n < 98)
 	{
-		for (x = n; x > 98; x--)
-		{
-			printf("%i, ", x);
-		}
+		for (; n < 98; n++)
+			printf("%d, ", n);
 	}
 	printf("98\n");
 }

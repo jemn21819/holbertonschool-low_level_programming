@@ -19,10 +19,10 @@ void times_table(void)
 				_putchar(48);
 				continue;
 			}
-			c = x * y;
+			z = x * y;
 			_putchar(',');
 			_putchar(' ');
-			if (c >= 10)
+			if (z >= 10)
 			{
 				_putchar(c / 10 + 48);
 				_putchar(c % 10 + 48);

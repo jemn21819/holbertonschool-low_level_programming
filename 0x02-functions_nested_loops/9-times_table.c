@@ -24,13 +24,13 @@ void times_table(void)
 			_putchar(' ');
 			if (z >= 10)
 			{
-				_putchar(c / 10 + 48);
-				_putchar(c % 10 + 48);
+				_putchar(z / 10 + 48);
+				_putchar(z % 10 + 48);
 			}
 			else
 			{
 				_putchar(' ');
-				_putchar(c + 48);
+				_putchar(z + 48);
 			}
 		}
 		_putchar('\n');

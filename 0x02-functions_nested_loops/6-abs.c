@@ -1,4 +1,4 @@
-#include "holberton.h"
+B#include "holberton.h"
 
 /**
  * _abs - Return the absolute value
@@ -8,5 +8,5 @@
 
 int _abs(int n)
 {
-	printf(n < 0 ? -n : n);
+	return (n < 0 ? -n : n);
 }

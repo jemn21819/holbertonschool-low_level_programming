@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * _islower - printo lower
- *
+ * _islower - print lower
+ * @c: int to be tested
  * Return: 1 or 0
  */
 

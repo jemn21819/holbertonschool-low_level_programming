@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * times_table - Print the 9 table
  */
@@ -9,13 +10,13 @@ void times_table(void)
 	int y;
 	int z;
 
-	for (x = 0; x <= 9; x++)
+	for (x = 0; x < 10; x++)
 	{
-		for (y = 0; y <= 9; y++)
+		for (y = 0; y < 10; y++)
 		{
 			if (y == 0)
 			{
-				_putchar('0');
+				_putchar(48);
 				continue;
 			}
 			c = x * y;
@@ -23,13 +24,13 @@ void times_table(void)
 			_putchar(' ');
 			if (c >= 10)
 			{
-				_putchar(c / 10 + '0');
-				_putchar(c % 10 + '0');
+				_putchar(c / 10 + 48);
+				_putchar(c % 10 + 48);
 			}
 			else
 			{
 				_putchar(' ');
-				_putchar(c + '0');
+				_putchar(c + 48);
 			}
 		}
 		_putchar('\n');

@@ -19,7 +19,7 @@ void times_table(void)
 				_putchar('0');
 				continue;
 			}
-			c + x * y;
+			c = x * y;
 			_putchar(',');
 			_putchar(' ');
 			if (c >= 10)

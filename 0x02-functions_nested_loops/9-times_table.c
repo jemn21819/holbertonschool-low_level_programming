@@ -1,9 +1,8 @@
 #include "holberton.h"
 /**
  * times_table - Print the 9 table
- *
- * Return: nothing
  */
+
 void times_table(void)
 {
 	int x;

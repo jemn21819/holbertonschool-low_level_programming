@@ -8,5 +8,6 @@
 
 int _abs(int n)
 {
-	return (n < 0 ? -n : n);
+	printf(n < 0 ? -n : n);
+	return (0);
 }

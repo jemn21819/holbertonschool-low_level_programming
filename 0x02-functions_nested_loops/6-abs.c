@@ -9,5 +9,4 @@
 int _abs(int n)
 {
 	printf(n < 0 ? -n : n);
-	return (0);
 }

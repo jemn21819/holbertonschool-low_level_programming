@@ -1,4 +1,4 @@
-#include "holberton.h"
+B#include "holberton.h"
 
 /**
  * print_to_98 - Print natual numbers from n to 98
@@ -13,14 +13,13 @@ void print_to_98(int n)
 	{
 		for (x = n; x < 98; i++)
 		{
-			printf("%d, ", x);
+			printf("%i, ", x);
 		}
-	}
-	else
+	} else
 	{
 		for (x = n; x > 98; x--)
 		{
-			printf("%d, ", x);
+			printf("%i, ", x);
 		}
 	}
 	printf("98\n");

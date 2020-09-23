@@ -4,7 +4,7 @@
  * print_last_digit - Print last digit of a number
  *
  * @n: integer
- * Return: r integer value
+ * Return: n integer value
  */
 
 int print_last_digit(int n)

@@ -1,8 +1,11 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
-/* 0. isupper */
+
 int _putchar(char);
+
+/* 0. isupper */
+int _isupper(int);
 
 /* 1. isdigit */
 int _isdigit(int);

@@ -6,7 +6,7 @@
  * Return: 1 if is upper, 0 otherwise
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
 
 	if (c >= 'A' &&  c <= 'Z')
@@ -16,5 +16,5 @@ int _isupper(int c);
 	else
 	{
 		return (0);
-	}
+	{
 }

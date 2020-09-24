@@ -20,5 +20,6 @@ int main(void)
 		else
 			printf("%i ", x);
 	}
+	printf("\n");
 	return (0);
 }

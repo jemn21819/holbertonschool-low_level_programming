@@ -17,9 +17,10 @@ int main(void)
 			printf("Fizz ");
 		else if (x % 5 == 0)
 			printf("Buzz ");
+		else if (x == 100)
+			printf("Buzz");
 		else
-			printf("%i ", x);
+			printf("%i \n", x);
 	}
-	putchar("\n");
 	return (0);
 }

@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * _isupper - Checks for uppercase
  * @c: Integer

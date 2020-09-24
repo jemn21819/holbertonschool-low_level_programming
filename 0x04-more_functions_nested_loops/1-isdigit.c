@@ -1,4 +1,5 @@
-#inclidue "holberton.h"
+#include <stdio.h>
+#include "holberton.h"
 
 /**
  * _isdigit - Check for a digit 0 - 9

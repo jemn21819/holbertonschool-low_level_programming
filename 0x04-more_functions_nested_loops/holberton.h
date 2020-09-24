@@ -5,10 +5,10 @@
 int _putchar(char);
 
 /* 0. isupper */
-int _isupper(int c);
+int _isupper(int);
 
 /* 1. isdigit */
-int _isdigit(int c);
+int _isdigit(int);
 
 /* 2-mul.c */
 int mul(int a, int b);

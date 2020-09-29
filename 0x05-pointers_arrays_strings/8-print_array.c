@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  * print_array - prints n elements of an array of integers
@@ -12,9 +13,9 @@ void print_array(int *a, int n)
 
 	for (x = 0; x < n; x++)
 	{
-		printf("%d", *(a + x));
-		if (n - x != 1)
+		if (x > 0)
 			printf(", ");
+		printf("%d", *(a + x));
 	}
 	printf("\n");
 }

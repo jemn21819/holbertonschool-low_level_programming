@@ -1,4 +1,4 @@
-#incude "holberton.h"
+#include "holberton.h"
 
 /**
 * reset_to_98 - ointer to an int as parameter and updates the value

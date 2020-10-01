@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * reverse_array - function that reverses the content of an array of integers.
+ * reverse_array - function that reverses the content of array of integers.
  * @a: Array rev
  * @n: Number of elements
  */

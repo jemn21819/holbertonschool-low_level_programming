@@ -8,20 +8,19 @@
 
 char *cap_string(char *s)
 {
-	int x = 0;
-	int y = 0;
+	int x;
+	int y;
 	char a[] = {32, '\t', '\n', 43, 33, 34, 40, 41, 59, 63, 46, 123, 125};
 
-	while (s[x] != '\0')
+	for (x = 0; s[x]; x++)
 	{
-		x++;
 		if (s[x] >= 'a' && s[x] <= 'z')
 		{
 			if (x == 0)
 				s[x] -= 32;
 			for (y = 0; a[y]; y++)
 			{
-				if (a[y] == s[y - 1])
+				if (a[y] == s[x - 1])
 				{
 					s[x] -= 32;
 					break;

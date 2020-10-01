@@ -19,10 +19,9 @@ char *cap_string(char *s)
 		{
 			if (x == 0)
 				s[x] -= 32;
-			while (s[x] != '\0')
+			for (y = 0; a[y]; y++)
 			{
-				x++;
-				if (a[x] == s[x - 1])
+				if (a[y] == s[y - 1])
 				{
 					s[x] -= 32;
 					break;

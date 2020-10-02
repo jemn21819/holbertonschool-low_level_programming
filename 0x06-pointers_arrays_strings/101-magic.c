@@ -2,7 +2,7 @@
 
 /**
  * main - program prints a[2] = 98
- * Return: Always 0
+ *Return: 0
  */
 
 int main(void)

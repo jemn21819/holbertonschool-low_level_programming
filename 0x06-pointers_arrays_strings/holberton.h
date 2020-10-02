@@ -31,5 +31,14 @@ char *leet(char *);
 /* 8-rot13.c */
 char *rot13(char *);
 
+/* 100-print_number.c */
+void print_number(int n);
+
+/* 102-infinite_add.c */
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
+/* 103-print_buffer.c */
+void print_buffer(char *b, int size);
+
 
 #endif

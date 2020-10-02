@@ -36,6 +36,8 @@ void print_number(int n);
 
 /* 102-infinite_add.c */
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
+void rev_string(char *s);
+int str_count(char *s);
 
 /* 103-print_buffer.c */
 void print_buffer(char *b, int size);

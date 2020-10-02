@@ -23,7 +23,6 @@ char *leet(char *s)
 		if (s[x] == leet[y])
 		{
 			s[x] = num[y];
-			break;
 		}
 	}
 	return (s);

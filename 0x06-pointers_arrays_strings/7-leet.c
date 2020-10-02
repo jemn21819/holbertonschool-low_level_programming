@@ -14,7 +14,7 @@ char *leet(char *s)
 	char leet[10] = "aAeEoOtTlL";
 	char num[10] = "4433007711";
 
-	while (s[x] != '0')
+	while (s[x] != '\0')
 	{
 		x++;
 	}

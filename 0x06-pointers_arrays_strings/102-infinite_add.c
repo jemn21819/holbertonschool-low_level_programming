@@ -24,7 +24,6 @@ void rev_string(char *s)
 	}
 }
 
-
 /**
  * str_count - size of string
  * @s: string
@@ -49,18 +48,17 @@ int str_count(char *s)
  * @size_r: buffer sizes
  * Return: r
  */
-
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int a;
-	int b;
+	int a, b;
 	int x;
-	int add = 0;
+	int add;
 	int res;
 
+	add = 0;
 	a = str_count(n1);
 	b = str_count(n2);
-	if (n1 >= size_r)
+	if (a >= size_r)
 		return (0);
 	a--;
 	b--;

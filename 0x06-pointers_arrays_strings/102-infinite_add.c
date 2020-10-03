@@ -12,7 +12,7 @@ void rev_string(char *s)
 	int x;
 	int y;
 
-	for (x = 0; s[x] != '\0'; x++)
+	for (x = 0; s[x]; x++)
 		;
 	x--;
 	for (y = 0; y < x; y++)
@@ -33,12 +33,10 @@ void rev_string(char *s)
 
 int str_count(char *s)
 {
-	int x = 0;
+	int x;
 
-	while (s[x] != '\0')
-	{
-		x++;
-	}
+	for (x = 0; s[x]; x++)
+		;
 	return (x);
 }
 

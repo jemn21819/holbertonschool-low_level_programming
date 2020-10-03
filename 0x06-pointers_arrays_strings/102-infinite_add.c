@@ -74,7 +74,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			break;
 		if ((a >= 0 && b >= 0) || a > b)
 			a--;
-		if ((a >= 0 && b >= 0) || a > b)
+		if ((a >= 0 && b >= 0) || a < b)
 			b--;
 		r[x] =  res % 10 + 48;
 		add = res / 10;

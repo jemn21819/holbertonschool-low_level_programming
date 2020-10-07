@@ -22,19 +22,21 @@ int _strlen_recursion(char *s)
 
 /**
  * _palin - palindrome funcion
- * @s: string
- * @p: pointer
+ * @str: string
+ * @s: index
+ * @e: index
  * Return: 1 for true 0 for false
  */
 
-int _palin(char *s, char *p)
+int _palin(char *str, int s, int e)
 {
-	if (*s == *p)
-		return (_palin(s + 1, p - 1));
-	if (s > p)
+	if (s == e)
 		return (1);
-	else
+	if (str[s] != str[e])
 		return (0);
+	if (s < e + 1)
+		return (_palin(str, s + 1, e - 1));
+	return (1);
 }
 
 

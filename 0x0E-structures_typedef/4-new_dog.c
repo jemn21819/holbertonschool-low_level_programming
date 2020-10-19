@@ -26,20 +26,19 @@ int _strlen(char *s)
 
 char *_strdup(char *str)
 {
-	int x;
-	char *p;
+	int i, len;
+	char *copy;
 
 	if (!str)
 		return (NULL);
-	for (x = 0; str[x]; x++)
-		;
-	p = malloc(sizeof(char) * (x + 1));
-	if (!p)
+	len = _strlen(str);
+	copy = malloc(sizeof(char) * len + 1);
+	if (!copy)
 		return (NULL);
-	for (x = 0; str[x]; x++)
-		p[x] = str[x];
-	p[x] = '\0';
-	return (p);
+	for (i = 0; i < len; i++)
+		copy[i] = str[i];
+	copy[i] = 0;
+	return (copy);
 }
 
 /**

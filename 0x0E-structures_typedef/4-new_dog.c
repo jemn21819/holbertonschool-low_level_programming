@@ -9,13 +9,11 @@
 
 int _strlen(char *s)
 {
-	char *p = s;
+	int x;
 
-	while (*s)
-	{
-		s++;
-	}
-	return (s - p);
+	for (x = 0; s[x]; x++)
+		;
+	return (x);
 }
 
 /**
@@ -69,8 +67,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (free(new_dog->name), free(new_dog), NULL);
 	}
 	new_owner = _strdup(owner);
-	new_dog->name = new_name;
-	new_dog->age = age;
 	new_dog->owner = new_owner;
+	new_dog->age = age;
 	return (new_dog);
 }

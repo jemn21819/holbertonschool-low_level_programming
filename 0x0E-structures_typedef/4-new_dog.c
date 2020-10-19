@@ -1,6 +1,25 @@
-#include "dog.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include "dog.h"
+
+
+/**
+ * _strcpy - copies the string
+ * @dest: Destination
+ * @src: source
+ * Return: dest value
+ */
+
+char *_strcpy(char *dest, char *src)
+{
+	int x;
+
+	for (x = 0; src[x]; x++)
+		dest[x] = src[x];
+	dest[x] = '\0';
+	return (dest);
+}
+
+
 /**
  * _strlen - returns the length of a string.
  * @s: String
@@ -14,29 +33,6 @@ int _strlen(char *s)
 	for (x = 0; s[x]; x++)
 		;
 	return (x);
-}
-
-/**
- * _strdup - returns a pointer to a newly allocated space in memory
- * @str: original string
- * Return: pointer to the duplicated string
- */
-
-char *_strdup(char *str)
-{
-	int i, len;
-	char *copy;
-
-	if (!str)
-		return (NULL);
-	len = _strlen(str);
-	copy = malloc(sizeof(char) * len + 1);
-	if (!copy)
-		return (NULL);
-	for (i = 0; i < len; i++)
-		copy[i] = str[i];
-	copy[i] = 0;
-	return (copy);
 }
 
 /**
@@ -59,14 +55,14 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		return (free(new_dog), NULL);
 	}
-	new_name = _strdup(name);
+	new_name = _strcpy(new_name, name);
 	new_dog->name = new_name;
 	new_owner = malloc(_strlen(owner) + 1);
 	if (!new_owner)
 	{
 		return (free(new_dog->name), free(new_dog), NULL);
 	}
-	new_owner = _strdup(owner);
+	new_owner = _strcpy(new_owner, owner);
 	new_dog->owner = new_owner;
 	new_dog->age = age;
 	return (new_dog);

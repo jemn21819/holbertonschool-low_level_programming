@@ -1,1 +1,1 @@
-printf("Hello, Holberton\n");
+#if (1) printf("Hello, Holberton\n")}

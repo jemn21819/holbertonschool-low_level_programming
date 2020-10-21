@@ -1,1 +1,2 @@
-#if (1) printf("Hello, Holberton\n")}
+#include "holberton.h"
+void main(void) {p(m); }

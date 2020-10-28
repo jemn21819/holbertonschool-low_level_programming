@@ -6,13 +6,13 @@
  * Return: size
  */
 
-int _strlen(char *s)
+int _strlen(const char *s)
 {
-	char *p = s;
+	int len = 0;
 
-	while (*s)
-		s++;
-	return (s - p);
+	while (s[len++])
+		continue;
+	return (len - 1);
 }
 
 /**

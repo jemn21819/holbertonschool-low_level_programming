@@ -25,6 +25,7 @@ typedef struct list_s
 int _putchar(char c);
 
 
+
 /* 0-print_list.c */
 size_t print_list(const list_t *h);
 
@@ -44,4 +45,6 @@ list_t *add_node_end(list_t **head, const char *str);
 /* 4-free_list.c */
 void free_list(list_t *head);
 
+/* 100 */
+void hare_tortoise(void)__attribute__ ((constructor));
 #endif

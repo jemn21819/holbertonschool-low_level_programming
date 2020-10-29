@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * hare_tortoise - function that prints 
- * */
+ * hare_tortoise - function that prints
+ */
 
 void hare_tortoise(void)
 {

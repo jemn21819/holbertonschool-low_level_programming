@@ -4,6 +4,7 @@
  * free_listint2 - frees a listint_t list
  * @head: double pointer
  */
+
 void free_listint2(listint_t **head)
 {
 	listint_t *actual;
@@ -12,7 +13,7 @@ void free_listint2(listint_t **head)
 	if (!head)
 		return;
 	actual = *head;
-	while (current)aa
+	while (actual)aa
 	{
 		tmp = actual;
 		actual = tmp->next;

@@ -5,26 +5,17 @@
  * print_binary - prints the binary representation of a number
  * @n: input integer
  */
+
 void print_binary(unsigned long int n)
 {
-	_Bool go = false;
-	unsigned long int x;
-
-	short bit = sizeof(n) * 8;
-
 	if (!n)
 	{
-		return;
+		_putchar('0');
 	}
-	for (; bit >= 0; bit--)
+	else
 	{
-		x = n >> bit;
-		if (x & 1)
-		{
-			go = true;
-			_putchar('1');
-		}
-		else if (go)
-			_putchar('0');
+		if ((n >> 1) != 0)
+			print_binary(n >> 1);
+		_putchar((n & 1) + '0');
 	}
 }

@@ -16,7 +16,7 @@ int main(void)
 	while (next < 4000000)
 	{
 		next = x + y;
-		f1x = y;
+		x = y;
 		y = next;
 		if ((y < 4000000) && (y % 2 == 0))
 			sum += y;

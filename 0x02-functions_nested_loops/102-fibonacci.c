@@ -9,9 +9,9 @@ int main(void)
 	int x, y;
 	long a, b, next;
 
-	f1 = 1;
-	f2 = 2;
-	n = 50;
+	a = 1;
+	b = 2;
+	y = 50;
 
 	for (x = 0; x < y; x++)
 	{

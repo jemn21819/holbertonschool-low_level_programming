@@ -1,9 +1,11 @@
 #include "holberton.h"
 #include <stdio.h>
+
 /**
  * main - prints the first 50 Fibonacci numbers, starting with 1 and 2
  * Return: 0
  */
+
 int main(void)
 {
 	int x, y;
@@ -23,7 +25,7 @@ int main(void)
 			printf("%lu, ", a);
 			next = a + b;
 			a = b;
-			a = next;
+			b = next;
 		}
 	}
 	printf("\n");
